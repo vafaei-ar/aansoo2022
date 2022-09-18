@@ -18,7 +18,6 @@ import numpy as np
 
 model = keras.models.load_model('models/model_v1.h5')
 
-
 class_names = ['Cat', 'Dog']
 
 image_file = st.file_uploader("Upload An Image",type=['png','jpeg','jpg'])
